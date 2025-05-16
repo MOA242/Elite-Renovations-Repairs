@@ -1,5 +1,13 @@
 body     {font-family: Centaur, "Century Gothic", Arial;
-    font-size: 14pt;}
+    font-size: 14pt;
+         .container{
+    transition: transform .5s;
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px
+}}
 
 p        {margin-left: 10pt;
     margin-right: 10pt;}
