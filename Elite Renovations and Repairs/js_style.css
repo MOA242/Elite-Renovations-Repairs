@@ -11,6 +11,14 @@ body {
     margin: auto;
     text-align: center;
     padding-top: 10px
+        .container{
+    transition: transform .5s;
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px
+}
 }
   }
   
