@@ -4,6 +4,14 @@ body {
     margin-bottom: 6ex;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 12px;
+    .container{
+    transition: transform .5s;
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px
+}
   }
   
   h1 {
@@ -44,3 +52,14 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 12px;
   }
+}
+@media screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    .listProduct{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
